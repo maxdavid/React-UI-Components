@@ -1,0 +1,34 @@
+/* All styles for your header Components live here */
+.header {
+  $size: 80px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  height: $size;
+  margin-left: 10px;
+
+.thumbnail {
+    width: $size; height: $size;
+    margin: 5px;
+    clip-path: circle(50% at center);
+  }
+
+  .header-content {
+    margin-left: 10px;
+  }
+
+  .header-title {
+    margin: 10px 0;
+
+    .display-name {
+      font-weight: 800;
+      margin-right: 10px;
+    }
+
+    .post-meta {
+      color: grey;
+      font-size: 0.9rem;
+    }
+  }
+}
