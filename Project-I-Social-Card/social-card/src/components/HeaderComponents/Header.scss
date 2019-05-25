@@ -1,17 +1,19 @@
 /* All styles for your header Components live here */
 .header {
-  $size: 80px;
+  $size: 100px;
   
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  height: $size;
+  height: ($size + 10px);
   margin-left: 10px;
 
 .thumbnail {
-    width: $size; height: $size;
+    $thumbnail-size: ($size / 2);
+    width: $thumbnail-size; height: $thumbnail-size;
     margin: 5px;
-    clip-path: circle(50% at center);
+    clip-path: circle(49% at center);
+    cursor: pointer;
   }
 
   .header-content {
