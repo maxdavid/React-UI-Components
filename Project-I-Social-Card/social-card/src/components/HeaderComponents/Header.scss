@@ -20,12 +20,17 @@
     margin-left: 10px;
   }
 
+  .post-text {
+    color: #333;
+  }
+
   .header-title {
     margin: 10px 0;
 
     .display-name {
       font-weight: 800;
       margin-right: 10px;
+      cursor: pointer;
     }
 
     .post-meta {
