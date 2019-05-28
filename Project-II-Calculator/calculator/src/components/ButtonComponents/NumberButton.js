@@ -3,7 +3,7 @@ import './Button.scss';
 
 const NumberButton = (props) => {
   return (
-    <div className='number-button'>{props.text}</div>
+    <div className='number-button' onClick={props.onClick}>{props.text}</div>
   );
 };
 
