@@ -1,7 +1,18 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
+import ButtonsContainer from './components/ButtonComponents/ButtonsContainer';
 
 const App = () => {
+  return (
+    <div className='calculator'>
+      <CalculatorDisplay />
+      <ButtonsContainer />
+    </div>
+  );
+};
+  /*
   return (
     <div>
       <h3>Welcome to React Calculator</h3>
@@ -19,5 +30,6 @@ const App = () => {
     </div>
   );
 };
+*/
 
 export default App;
