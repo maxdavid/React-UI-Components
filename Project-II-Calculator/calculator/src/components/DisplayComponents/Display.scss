@@ -1,0 +1,16 @@
+.display {
+  height: 125px;
+  width: 100%;
+  overflow: hidden;
+
+  background-color: #222;
+  color: white;
+  border: 1px solid grey;
+  text-align: right;
+  padding: 30px 15px;
+
+  .display-text {
+    font-size: 4rem;
+    font-weight: 300;
+  }
+}
